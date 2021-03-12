@@ -9,21 +9,30 @@
 /* Begin PBXBuildFile section */
 		0F98BDD225FB7E9F00D66C21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F98BDD125FB7E9F00D66C21 /* AppDelegate.swift */; };
 		0F98BDD425FB7E9F00D66C21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F98BDD325FB7E9F00D66C21 /* SceneDelegate.swift */; };
-		0F98BDD625FB7E9F00D66C21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F98BDD525FB7E9F00D66C21 /* ContentView.swift */; };
 		0F98BDD825FB7EA600D66C21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F98BDD725FB7EA600D66C21 /* Assets.xcassets */; };
 		0F98BDDB25FB7EA600D66C21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F98BDDA25FB7EA600D66C21 /* Preview Assets.xcassets */; };
 		0F98BDDE25FB7EA600D66C21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F98BDDC25FB7EA600D66C21 /* LaunchScreen.storyboard */; };
+		0F98BDEF25FBBA7300D66C21 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F98BDEE25FBBA7300D66C21 /* Card.swift */; };
+		0F98BDF125FBBBF400D66C21 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F98BDF025FBBBF400D66C21 /* CardView.swift */; };
+		0F98BDF325FBBDDA00D66C21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F98BDF225FBBDDA00D66C21 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0F98BDCE25FB7E9F00D66C21 /* Flashzilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashzilla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F98BDD125FB7E9F00D66C21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F98BDD325FB7E9F00D66C21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0F98BDD525FB7E9F00D66C21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0F98BDD525FB7E9F00D66C21 /* gestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gestureView.swift; sourceTree = "<group>"; };
 		0F98BDD725FB7EA600D66C21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F98BDDA25FB7EA600D66C21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0F98BDDD25FB7EA600D66C21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F98BDDF25FB7EA600D66C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F98BDE525FB83F700D66C21 /* HapticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsView.swift; sourceTree = "<group>"; };
+		0F98BDE825FBAD6200D66C21 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		0F98BDEA25FBB69B00D66C21 /* NotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenter.swift; sourceTree = "<group>"; };
+		0F98BDEC25FBB7A800D66C21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0F98BDEE25FBBA7300D66C21 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		0F98BDF025FBBBF400D66C21 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		0F98BDF225FBBDDA00D66C21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +65,12 @@
 		0F98BDD025FB7E9F00D66C21 /* Flashzilla */ = {
 			isa = PBXGroup;
 			children = (
+				0F98BDF025FBBBF400D66C21 /* CardView.swift */,
+				0F98BDF225FBBDDA00D66C21 /* ContentView.swift */,
+				0F98BDEE25FBBA7300D66C21 /* Card.swift */,
+				0F98BDE725FB840300D66C21 /* Examples */,
 				0F98BDD125FB7E9F00D66C21 /* AppDelegate.swift */,
 				0F98BDD325FB7E9F00D66C21 /* SceneDelegate.swift */,
-				0F98BDD525FB7E9F00D66C21 /* ContentView.swift */,
 				0F98BDD725FB7EA600D66C21 /* Assets.xcassets */,
 				0F98BDDC25FB7EA600D66C21 /* LaunchScreen.storyboard */,
 				0F98BDDF25FB7EA600D66C21 /* Info.plist */,
@@ -73,6 +85,18 @@
 				0F98BDDA25FB7EA600D66C21 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0F98BDE725FB840300D66C21 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				0F98BDEC25FBB7A800D66C21 /* ContentView.swift */,
+				0F98BDEA25FBB69B00D66C21 /* NotificationCenter.swift */,
+				0F98BDE825FBAD6200D66C21 /* TimerView.swift */,
+				0F98BDE525FB83F700D66C21 /* HapticsView.swift */,
+				0F98BDD525FB7E9F00D66C21 /* gestureView.swift */,
+			);
+			path = Examples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,8 +171,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F98BDD225FB7E9F00D66C21 /* AppDelegate.swift in Sources */,
+				0F98BDF325FBBDDA00D66C21 /* ContentView.swift in Sources */,
+				0F98BDF125FBBBF400D66C21 /* CardView.swift in Sources */,
 				0F98BDD425FB7E9F00D66C21 /* SceneDelegate.swift in Sources */,
-				0F98BDD625FB7E9F00D66C21 /* ContentView.swift in Sources */,
+				0F98BDEF25FBBA7300D66C21 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
